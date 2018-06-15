@@ -5,29 +5,117 @@
 <body>
 	<form action="" method="post">
 		<div>
-			<label for="date">Fecha de solicitud:</label>
+			<label class="button"></label>
+			<button type="submit">Acceder al Formulario</button>
+		</div>
+		<br>
+		<div>
+			<label for="date">Fecha de Solicitud</label><br>
 			<input type="date" name="solicitud"/>
 		</div>
 		<br>
 		<div>
-			<label for="name">Nombre completo:</label>
+			<label for="name">Nombre Completo</label><br>
 			<input type="text" name="name" placeholder="Pepito Perez">
 		</div>
 		<br>
 		<div>
-			<label for="mail">Correo electronico:</label>
+			<label for="date_2">Fecha De Nacimiento</label><br>
+			<input type="date" name="date_2"/>
+		</div>
+		<br>
+		<div>
+			<label for="mail">Correo Electrónico</label><br>
 			<input type="email" name="mail" placeholder="alguien@ejemplo.com"/>
 		</div>
 		<br>
 		<div>
-			<label for="sex">Selecciona tu sexo:</label>
-			<input type="checkbox" value="Hombre">Hombre
-			<input type="checkbox" value="mujer">Mujer
-			<input type="checkbox" value="otro">otro
+			<label for="Telephon">Telefono:</label><br>
+			<input type="number" name="Telephon" placeholder="5557776">
 		</div>
 		<br>
 		<div>
-			<label for="departamento">Selecciona un departamento</label>
-			<select name="departamento">
+			<label for="sex">Seleccione su género:</label>
+			<input type="radio" value="Mas"/>
+			<label for="Mas">Masculino</label>
+			<input type="radio" value="Fem"/>
+			<label for="Fem">Femenino</label>
+			<input type="radio" value="Otro"/>
+			<label for="Otro">Otro</label>
+		</div>
+		<br>
+		<div>
+			<label for="departamento">Departamento</label><br>
+			<select name="departamento" />
+				<option value="SuD">Selecciona un Departamento</option>
+				<option value="Am">Amazonas</option>
+				<option value="An">Antioquia</option>
+				<option value="Ar">Arauca</option>
+				<option value="At">Atlántico</option>
+				<option value="Bog">Bogotá</option>
+				<option value="Bol">Bolivar</option>
+				<option value="Boy">Boyacá</option>
+				<option value="Cal">Caldas</option>
+				<option value="Caq">Caquetá</option>
+				<option value="Cas">Casanare</option>
+				<option value="Cau">Cauca</option>
+				<option value="Ces">Cesar</option>
+				<option value="Cho">Chocó</option>
+				<option value="Cor">Córdoba</option>
+				<option value="Cun">Cundinamarca</option>
+				<option value="Guai">Guainía</option>
+				<option value="Guav">Guaviare</option>
+				<option value="Hui">Huila</option>
+				<option value="Guaj">La Guajira</option>
+				<option value="Mag">Magdalena</option>
+				<option value="Met">Meta</option>
+				<option value="Nar">Nariño</option>
+				<option value="NSan">Norte de Santander</option>
+				<option value="Put">Putumayo</option>
+				<option value="Qui">Quindío</option>
+				<option value="Ris">Risaralda</option>
+				<option value="SanA">San Andrés</option>
+				<option value="San">Santander</option>
+				<option value="Suc">Sucre</option>
+				<option value="Tol">Tolima</option>
+				<option value="VCau">Valle del Cauca</option>
+				<option value="Vau">Vaupés</option>
+				<option value="Vic">Vichada</option>
+			</select>
+		</div>
+        <br>
+        <div>
+        	<label for="city">Ciudad</label><br>
+        	<select name="city">
+        		<option value="SuC">Selecciona una Ciudad</option>
+        		<option value="Bar">Barranquilla</option>
+				<option value="Bel">Bello</option>
+				<option value="Bog">Bogotá</option>
+				<option value="Bue">Buenaventura</option>
+				<option value="Buc">Bucaramanga</option>
+				<option value="Cal">Cali</option>
+				<option value="Car">Cartagena</option>
+				<option value="Cuc">Cúcuta</option>
+				<option value="Iba">Ibagué</option>
+				<option value="Man">Manizales</option>
+				<option value="Med">Medellín</option>
+				<option value="Mon">Montería</option>
+				<option value="Nei">Neiva</option>
+				<option value="Pas">Pasto</option>
+				<option value="Per">Pereira</option>
+				<option value="SMar">Santa Marta</option>
+				<option value="Soa">Soacha</option>
+				<option value="Sol">Soledad</option>
+				<option value="Val">Valledupar</option>
+				<option value="Vil">Villavicencio</option>
+				<option value="Otro">Otro</option>	
+        	</select>
+        </div>
+        <br>
+        <div>
+        	<label for="address">Dirección</label><br>
+        	<input type="text" name="address" placeholder="Cra 22 #22c -22">
+        </div>
+    </form>
 </body>
 </html>
