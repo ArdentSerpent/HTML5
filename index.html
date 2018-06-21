@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Adopcion de mascotas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<form action="" method="post">
+	<form action="#" method="post">
+		<center>
 		<div>
 			<label class="button"></label>
-			<button type="submit">Acceder al Formulario</button>
+			<button type="submit" class="Primer">Acceder al formualrio</button>
 		</div>
-		<br>
-		<div>
-			<label for="date">Fecha de Solicitud</label><br>
-			<input type="date" name="solicitud"/>
+		</center>		
+		<section class="container">
+		<header>
+			<label for="date">Fecha de Solicitud</label>
+			<input type="date" id="Acceder" name="solicitud" />
+		</header>
+		<div class="uno">
+			<p>Nombre Completo<p>
+			<input type="text"  name="name" placeholder="Pepito Perez">
 		</div>
-		<br>
-		<div>
-			<label for="name">Nombre Completo</label><br>
-			<input type="text" name="name" placeholder="Pepito Perez">
-		</div>
-		<br>
-		<div>
-			<label for="date_2">Fecha De Nacimiento</label><br>
-			<input type="date" name="date_2"/>
-		</div>
-		<br>
-		<div>
-			<label for="mail">Correo Electrónico</label><br>
+		<div class="uno">
+			<p>Fecha De Nacimiento<p>
+			<input type="date"  name="date_2"/>
+		</div>		
+		<div class="uno">
+			<p>Correo Electrónico<p>
 			<input type="email" name="mail" placeholder="alguien@ejemplo.com"/>
 		</div>
-		<br>
-		<div>
-			<label for="Telephon">Telefono:</label><br>
+		<div class="uno">
+			<p>Telefono:<p>
 			<input type="number" name="Telephon" placeholder="5557776">
-		</div>
-		<br>
+		</div>		
 		<div>
-			<label for="sex">Seleccione su género:</label>
+			<label id="espaciado2" for="sex">Seleccione su género:</label>
 			<input type="radio" value="Mas"/>
 			<label for="Mas">Masculino</label>
 			<input type="radio" value="Fem"/>
 			<label for="Fem">Femenino</label>
 			<input type="radio" value="Otro"/>
 			<label for="Otro">Otro</label>
-		</div>
-		<br>
-		<div>
-			<label for="departamento">Departamento</label><br>
+		</div>		
+		<div class="uno">
+			<p>Departamento<p>
 			<select name="departamento" />
 				<option value="SuD">Selecciona un Departamento</option>
 				<option value="Am">Amazonas</option>
@@ -82,10 +80,9 @@
 				<option value="Vau">Vaupés</option>
 				<option value="Vic">Vichada</option>
 			</select>
-		</div>
-        <br>
-        <div>
-        	<label for="city">Ciudad</label><br>
+		</div>       
+        <div class="uno">
+        	<p>Ciudad<p>
         	<select name="city">
         		<option value="SelTuC">Selecciona una Ciudad</option>
         		<option value="1">Abriaquí</option>
@@ -1189,15 +1186,13 @@
 				<option value="1099">Úmbita</option>
 				<option value="1100">Útica</option>
         	</select>
-        </div>
-        <br>
-        <div>
-        	<label for="address">Dirección</label><br>
+        </div>  
+        <div id="espaciado3">
+        	<p>Dirección<p>
         	<input type="text" name="address" placeholder="Cra 22 #22c -22">
-        </div>
-        <br>
+        </div> 
         <div>
-        	<label for="Domicilio">Selecciona el tipo de domicilio:</label>
+        	<label id="espaciado1" for="Domicilio">Selecciona el tipo de domicilio:</label>
         	<input type="radio" name="Casa">
         	<label for="Casa">Casa</label>
         	<input type="radio" name="Depa"/>
@@ -1205,63 +1200,58 @@
             <input type="radio" name="Finca">
             <label for="Finca">Finca</label>
             <input type="radio" name="otro">
-            <label for="otro">Otro</label><br>
-            </div><br>
-        <div>
-           	<label for="otro">Especifique "otro"</label><br>
+            <label for="otro">Otro</label>
+            </div>
+        <div id="espaciado4">
+           	<label for="otro">Especifique "otro"</label>
            	<input type="text" name="otro"/>
         </div>
-        <br>
-        <div>
-            <label for="NuDom">Numero de integrantes del domicilio</label><br>
+        
+        <div class="uno">
+            <p>Numero de integrantes del domicilio<p>
            	<input type="number" name="NuDom"/>	
         </div>
-        <br>
-      	<div>
-      		<label for="Masc">¿por que quieres adoptar una mascota?</label><br>
+        
+      	<div class="uno">
+      		<p>¿por que quieres adoptar una mascota?<p>
       		<input type="text" name="Masc"/>
         </div>
-        <br>
-        <div>
+        
+        <div class="uno">
        		 <label for="Animals">¿Tienes experiencia con animales?</label>
        		 <input type="radio" name="Si">
        		 <label for="Si">Si</label>
        		 <input type="radio" name="No">
       		  <label for="No">No</label>
-        </div>
-        <br>
-        <div>
+        </div>       
+        <div class="uno">
        		<label for="Animals_2">¿Tienes otra mascota?</label>
       	  	<input type="radio" name="Si">
        		<label for="Si">Si</label>
        		<input type="radio" name="No">
         	<label for="No">No</label>
         </div>
-        <br>
-        <div>
-			<label for="Ingresos">¿Cuales son tus ingresos mensuales?</label><br>
+        <div class="uno">
+			<p>¿Cuales son tus ingresos mensuales?<p>
 			<input type="number" name="Ingresos" placeholder="$500.000"/>        	     	
         </div>
-        <br>
-        <div>
-        	<label for="IngresosM">¿Cuantos ingresos dispones para tu mascota?</label><br>
+        <div class="uno">
+        	<p>¿Cuantos ingresos dispones para tu mascota?<p>
         	<input type="number" name="IngresosM" placeholder="$200.000"/>
-        </div>
-        <br>
-        <div>
-        	<label for="TiempoM">¿Cuanto tiempo piensas dedicarle a tu mascota?</label><br>
+        </div>        
+        <div class="uno">
+        	<p>¿Cuanto tiempo piensas dedicarle a tu mascota?<p>
         	<input type="text" name="TiempoM"/>
-        </div>
-        <br>
-        <div>
-        	<label for="TiempoMM">En caso de estasr ausente por un tiempo,¿quien cuidara de tu mascota?</label><br>
+        </div>       
+        <div class="uno">
+        	<p>En caso de estar ausente por un tiempo,¿quien cuidara de tu mascota?<p>
         	<input type="text" name="TiempoMM"/>
-        </div> 
-        <br>
-        <div>
+        </div>        
+        <footer>
         	<label class="button"></label>
         	<button type="submit">Guardar</button>
-        </div>
+        </footer>
+        </section>
     </form>
 </body>
 </html>
