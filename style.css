@@ -13,6 +13,7 @@ header {
 	border-radius: 5px 0px 0px;
 	display: block;
 	padding: 7px 10px 10px 10px;
+	font-family: Arial;
 
 }
 
@@ -21,7 +22,7 @@ header {
 }
 
 div {
-	font-family: calibri;
+	font-family: Arial;
 }
 
 input, select {
